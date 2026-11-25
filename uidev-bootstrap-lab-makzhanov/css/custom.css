@@ -1,0 +1,46 @@
+#gallery img {
+    transition: transform 0.2s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.03);
+}
+
+:root {
+    --bs-primary: #6f42c1;
+    --bs-primary-rgb: 111, 66, 193;
+
+    --bs-secondary: #9370db;
+    --bs-secondary-rgb: 147, 112, 219;
+
+    --bs-success: #845ec2;
+    --bs-success-rgb: 132, 94, 194;
+
+    --bs-info: #a78bfa;
+    --bs-info-rgb: 167, 139, 250;
+
+    --bs-warning: #c4b5fd;
+    --bs-warning-rgb: 196, 181, 253;
+
+    --bs-danger: #59359a;
+    --bs-danger-rgb: 89, 53, 154;
+
+    --bs-light: #f3effb;
+    --bs-light-rgb: 243, 239, 251;
+
+    --bs-dark: #241638;
+    --bs-dark-rgb: 36, 22, 56;
+
+    --bs-link-color: #6f42c1;
+    --bs-link-hover-color: #59359a;
+}
+
+
+.btn-primary {
+    --bs-btn-bg: #6f42c1;
+    --bs-btn-border-color: #6f42c1;
+    --bs-btn-hover-bg: #59359a;
+    --bs-btn-hover-border-color: #59359a;
+    --bs-btn-active-bg: #4c2c82;
+    --bs-btn-active-border-color: #4c2c82;
+}
